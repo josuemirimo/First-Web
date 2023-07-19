@@ -3,266 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Tomorrow Vijana</title>
+    <title>Drink Menu</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <style>
-        .typing{
-            padding-top: 25%;
-            text-align: center;
-        }
-        .containes{
-            display: inline-block;
-            text-align: center;
-        }
-        .typed-out{
-            overflow: hidden;
-            color: rgb(211, 56, 128);
-            border-radius: 4px;
-            animation: 
-              typing 3s steps(25, end) forwards;
-            font-size: 1.6rem;
-            width: 100%;
-        }
-        /* @keyframes typing {
-          from { width: 0 }
-          to { width: 100% }
-        } */
-
-        
-        /* our mission css */
-        #page-wrap { 
-            margin-left: 10%; 
-            margin-right: 10%; 
-            text-align: justify;
-        }
-        
-        aside h3{
-            padding-top: 20px;
-            color: rgb(255, 175, 26);
-            font-size: 30px;
-        }
-    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo"><a href="index.html"><img src="./images/tv_logo.png" alt=""></a></div>
-            <label for="btn" class="icon">
-                <span class="fa fa-bars"></span>
-            </label>
-            <input type="checkbox" id="btn">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li>
-                    <label for="btn-1" class="show">About us +</label>
-                    <a href="about.html">About us</a>
-                    <input type="checkbox" id="btn-1">
-                    <ul>
-                        <li>
-                            <label for="btn-2" class="show">What we do +</label>
-                            <a href="#">What we do
-                                <span class="fa fa-plus"></span>
-                            </a>
-                            <input type="checkbox" id="btn-2">
-                            <ul>
-                                <li><a href="education.html">Education</a></li>
-                                <li><a href="mobilization.html">Mobilization</a></li>
-                                <li><a href="livelihood.html">Livelihood</a></li>
-                                <li><a href="community engagment.html">Community engagment</a></li>
-                                <li><a href="life skills.html">Life skills</a></li>
-                                <li><a href="covid-19.html">Covid-19</a></li>
-                                <li><a href="adult literacy.html">Adult literacy</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="team.html">Team</a></li>
-                    </ul>
-                </li>
-                <li><a href="blog and news.html">Blog and news</a></li>
-                <li><a href="stories.html">Stories</a></li>
-                <li><a href="get involved.html">Get involved</a></li>
-                <li><a href="donate.html">Donate</a></li>
-            </ul>
-        </nav>
-    </header>
-
-<section style="background: url(./images/office.jpeg); background-size: cover; height: calc(100vh - 80px);">
-    <div class="typing">
-        <h1 style="font-size: 40px; color: rgb(211, 56, 128);">Welcome to Tomorrow Vijana</h1>
-        <div class="containes">
-            <div class="typed-out">TOMORROW VIJANA is a registered non profit organization started in January 2014 in Rwamwanja refugee settlement, founded by refugees for refugees. <br> Engaging, Educating & Empowering Refugees</div>
-        </div>
+    <div class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html" >About</a>
+        <a href="contact.html">Contact</a>
+        <a href="faq.html">FAQ</a>
     </div>
-</section>
-    
-<div class="card-head" style="text-align:center; padding: 10px; padding-top: 20px;">
-    <h1 style="color: rgb(56, 56, 56); font-size: 25px; text-transform: capitalize;">what we do</h1><br><p>Make the youth of Tomorrow agent of change through education</p></div>
-<br>
-<div class="contents" style="margin: 0 auto; max-width: 1000px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px">
-    <div class="Cards">
-        <div class="card" style="box-shadow: 0 0 5px rgba(19, 18, 18, 0.1)">
-            <a href="education.html"><img src="./images/students.jpg" alt="" class="card-img" style="height: 250px; width: 100%; display: block"></a>
-            <div class="card-contents" style="line-height: 1.5; height: 170px; font-size: 0.9em; padding: 15px; background: #fafafa">
-                <p>Education department traines different students from different villages (males and females) ...</p>
-            </div>
-    
-            <div class="card-info" style="padding: 15px; display: flex; justify-content: space-between; align-items: center; background: #eeeeee; font-size: 16px; border-bottom: 2px solid #cccccc">
-                <div></div>
-                <div>
-                    <a href="education.html" class="card-link">Learn more</a>
-                </div>
-            </div>
-        </div>
+    <h1 class="heading">Welcome to our drinks menu</h1>
+    <hr>
+    <div class="card beer" onclick="window.location.href='beer.html'">
+        <h2>Beer</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat aliquid quidem nulla cum neque quam in explicabo eos? Labore, quisquam?</p>
     </div>
 
-    <div class="Cards">
-        <div class="card" style="box-shadow: 0 0 3px rgb(0, 0, 0, 0.1)">
-            <a href="mobilization.html"><img src="./images/car_mob.jpg" alt="" class="card-img" style="height: 250px; width: 100%; display: block"></a>
-            <div class="card-contents" style="line-height: 1.5; height: 170px; font-size: 0.9em; padding: 15px; background: #fafafa">
-                <p>Tomorrow Vijana together with ADRA do the massive sensitization in different sectors of the settlement ...</p>
-            </div>
-    
-            <div class="card-info" style="padding: 15px; display: flex; justify-content: space-between; align-items: center; background: #eeeeee; font-size: 16px; border-bottom: 2px solid #cccccc">
-                <div></div>
-                <div>
-                    <a href="mobilization.html" class="card-link">Learn more</a>
-                </div>
-            </div>
-        </div>
+    <div class="card soda" onclick="window.location.href='soda.html'">
+        <h2>Soda</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugit ducimus nostrum, aliquid suscipit cum molestiae facere aperiam adipisci dicta.</p>
     </div>
 
-    <div class="Cards">
-        <div class="card" style="box-shadow: 0 0 5px rgba(19, 18, 18, 0.1)">
-            <a href="adult literacy.html"><img src="./images/adult litteracy.jpg" alt="" class="card-img" style="height: 250px; width: 100%; display: block"></a>
-            <div class="card-contents" style="line-height: 1.5; height: 170px; font-size: 0.9em; padding: 15px; background: #fafafa">
-                <p>The Functional Adult Literacy & English Language program equips refugees with the skills to read, ...</p>
-            </div>
-    
-            <div class="card-info" style="padding: 15px; display: flex; justify-content: space-between; align-items: center; background: #eeeeee; font-size: 16px; border-bottom: 2px solid #cccccc">
-                <div></div>
-                <div>
-                    <a href="adult literacy.html" class="card-link">Learn more</a>
-                </div>
-            </div>
-        </div>
+    <div class="card heineken" onclick="window.location.href='beer.html'">
+        <h2>Heineken</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat aliquid quidem nulla cum neque quam in explicabo eos? Labore, quisquam?</p>
     </div>
 
-    <div class="Cards">
-        <div class="card" style="box-shadow: 0 0 5px rgba(19, 18, 18, 0.1)">
-            <a href="education.html"><img src="./images/students.jpg" alt="" class="card-img" style="height: 250px; width: 100%; display: block"></a>
-            <div class="card-contents" style="line-height: 1.5; height: 170px; font-size: 0.9em; padding: 15px; background: #fafafa">
-                <p>Since March 2020, Tomorrow Vijana through ADRA collaborated with different Implementing Partners such as SAVE THE CHILDREN, ACCORD, OXFAM, on a multimedia production by playing pre-recorded audios to advocate the ’’ Fight COVID-19 pandemic ‘’...</p>
-            </div>
-    
-            <div class="card-info" style="padding: 15px; display: flex; justify-content: space-between; align-items: center; background: #eeeeee; font-size: 16px; border-bottom: 2px solid #cccccc">
-                <div></div>
-                <div>
-                    <a href="education.html" class="card-link">Learn more</a>
-                </div>
-            </div>
-        </div>
+    <div class="card club" onclick="window.location.href='soda.html'">
+        <h2>Club</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugit ducimus nostrum, aliquid suscipit cum molestiae facere aperiam adipisci dicta.</p>
     </div>
 
-    <div class="Cards">
-        <div class="card" style="box-shadow: 0 0 5px rgba(19, 18, 18, 0.1)">
-            <a href="education.html"><img src="./images/students.jpg" alt="" class="card-img" style="height: 250px; width: 100%; display: block"></a>
-            <div class="card-contents" style="line-height: 1.5; height: 170px; font-size: 0.9em; padding: 15px; background: #fafafa">
-                <p>Education department traines different students from different villages (males and females) ...</p>
-            </div>
-    
-            <div class="card-info" style="padding: 15px; display: flex; justify-content: space-between; align-items: center; background: #eeeeee; font-size: 16px; border-bottom: 2px solid #cccccc">
-                <div></div>
-                <div>
-                    <a href="education.html" class="card-link">Learn more</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="Cards">
-        <div class="card" style="box-shadow: 0 0 5px rgba(19, 18, 18, 0.1)">
-            <a href="education.html"><img src="./images/students.jpg" alt="" class="card-img" style="height: 250px; width: 100%; display: block"></a>
-            <div class="card-contents" style="line-height: 1.5; height: 170px; font-size: 0.9em; padding: 15px; background: #fafafa">
-                <p>Education department traines different students from different villages (males and females) ...</p>
-            </div>
-    
-            <div class="card-info" style="padding: 15px; display: flex; justify-content: space-between; align-items: center; background: #eeeeee; font-size: 16px; border-bottom: 2px solid #cccccc">
-                <div></div>
-                <div>
-                    <a href="education.html" class="card-link">Learn more</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
-
-<div id="page-wrap">
-
-    <aside>
-          <h3>Our Mission & Vision</h3>
-          <p>Tomorrow Vijana has an innovative view on how to develop. We believe in the strengths of refugees themselves, this means that they are the ones who come up with ideas how to develop their community. That is why most of our members are refugees themselves. They are the ones who are the closest to all members of the refugees communities. These members are the ones who come up with the ideas for new programs, and also implement them. The directors are the ones who guide the team, monitor, evaluate, write down the policies, help with financial reports and other administrative task and make connections with external partners.</p>
-    
-        <h3>Mission:</h3>
-        <p> To facilitate refugees to rebuild their lives.</p>
-
-        <h3>Vision:</h3>
-        <p> To work with refugees to achieve self-reliance through provision of education and skills, promotes economic empowerment, enhanced livelihoods and promotion of health for all.</p>
-
-        <p>With this mission and vision we also want to show the world that refugees are strong people who have a lot of skills and add a lot of value to the society, hereby changing the negative mindset people have towards refugees.</p>
-    </aside>
-<img src="./images/home tv.jpg" width="100%" alt="">
-</div>
-
-<footer class="footer">
-    
-    <div class="nav-footer">
-        <a href="index.html"><img src="./images/tv_logo.png" alt=""></a>
-        
-            <div class="links">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About us</a></li>
-                    <li><a href="blog and news.html">Blog and news</a></li>
-                    <li><a href="stories.html">Stories</a></li>
-                    <li><a href="get involved.html">Get involved</a></li>
-                    <li><a href="donate.html">Donate</a></li>
-                </ul>
-            </div>
-    </div>
-    
-    <div class="footer-left">
-        
-    </div>
-    
-    <ul class="footer-right">
-        <ul>
-            <li>
-            <h2>Address</h2>
-            <p>Rwamwanja Refugee Settlement <br> Kamwenge District <br>Uganda</p>
-            </li>
-        </ul>
-        <li class="socials">
-            <h2>Follow Us</h2>
-            <a href="https://www.instagram.com/tomorrowvijana/" target="_blank"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.facebook.com/tomorrowvijana" target="_blank"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.twitter.com/tomorrowvijana" target="_blank"><i class="fa fa-twitter"></i></a>
-        </li>
-
-        <li>
-            <h2>Contact Us</h2>
-            <ul class="box">
-                <li><a href="mailto:info@tomorrowvijana.org">info@tomorrowvijana.org</a></li>
-            </ul>
-        </li>
-    </ul>
-
-    <div class="footer-bottom">
-        <p>Website by &copy; <a href="mailto:josuemirimo10@gmail.com">Josue Mirimo</a></p>
-    </div>
-</footer>
-
+    <footer>
+    Tomorrow Vijana Web Dev &copy; 2023
+    </footer>
 </body>
 </html>
